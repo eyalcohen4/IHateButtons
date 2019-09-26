@@ -1,0 +1,32 @@
+body {
+	padding: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.article-image {
+	position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-image {
+	background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    padding-top: 33%;
+    z-index: 0;
+	background-image:url("./brazil.jpg");
+    opacity: 0.5;
+    transform:
+    translate3d(0px, 0px, 0px) 
+}
